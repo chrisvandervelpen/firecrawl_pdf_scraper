@@ -70,10 +70,3 @@ if __name__ == "__main__":
 
     output_directory = r"C:\temp\scraped_pdfs"
     scraped_data = scrape_pdfs(urls_to_scrape, output_dir=output_directory)
-
-    # if scraped_data:
-    #     print(f"\nScraped {len(scraped_data)} PDFs.")
-    #     # For demonstration, printing the first 200 characters of the first result
-    #     first_result = scraped_data[0]
-    #     print(f"\n--- Content Preview for {first_result['url']} ---")
-    #     print(first_result['markdown'][:200] + "...")
